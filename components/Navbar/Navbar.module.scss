@@ -1,0 +1,25 @@
+@use "../../styles/colors" as t;
+
+.navbar {
+  width: 100vw;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+
+  &Container {
+    img {
+      height: 6.6rem;
+      cursor: pointer;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    &Container {
+      img {
+        padding: 0 2rem;
+      }
+    }
+  }
+}

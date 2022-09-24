@@ -1,0 +1,113 @@
+@use "./colors" as t;
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.home {
+  height: 100vh;
+  width: 100%;
+  &Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    padding: 0 2rem;
+    background-image: linear-gradient(145deg, rgba(24, 30, 73, 0.7) 25%, rgba(106, 107, 32, 0.8) 100%),
+      url("/ibbBackground.jpg");
+    background-position: 47%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  &Text {
+    color: t.$mainWhite;
+    margin-bottom: 6rem;
+    h1 {
+      font-size: 3.4rem;
+      letter-spacing: 0.1rem;
+    }
+    h3 {
+      margin-top: 1rem;
+      font-size: 1.8rem;
+      font-weight: 400;
+    }
+  }
+
+  &Buttons {
+    // position: absolute;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    a {
+      width: fit-content;
+      padding: 0.4rem 1.4rem;
+      border: white solid 0.2rem;
+      border-radius: 3rem;
+      text-decoration: none;
+      color: t.$mainWhite;
+    }
+  }
+}
+
+@media (min-width: 425px) {
+  .home {
+    &Container {
+      padding: 0 3rem;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .home {
+    &Container {
+      padding: 0 4rem;
+    }
+
+    &Text {
+      margin-bottom: 8rem;
+      h1 {
+        font-size: 5rem;
+      }
+      h3 {
+        font-size: 2.6rem;
+      }
+    }
+
+    &Buttons {
+      gap: 2.4rem;
+      a {
+        font-size: 2rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .home {
+    &Container {
+      padding: 0 8rem;
+    }
+
+    &Text {
+      margin-bottom: 12rem;
+      h1 {
+        font-size: 6rem;
+      }
+      h3 {
+        font-size: 2.8rem;
+      }
+    }
+
+    &Buttons {
+      gap: 2.4rem;
+      a {
+        padding: 0.4rem 2rem;
+        font-size: 2.2rem;
+      }
+    }
+  }
+}

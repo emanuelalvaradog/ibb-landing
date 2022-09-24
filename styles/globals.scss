@@ -1,0 +1,17 @@
+@use "./colors" as t;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Inter", sans-serif;
+  background-color: t.$background;
+}
+
+body {
+  font-size: 1.6rem;
+}

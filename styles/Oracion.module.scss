@@ -1,0 +1,139 @@
+@use "./colors" as t;
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.formContainer {
+  width: 100%;
+  height: calc(100% - 7rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .formCard {
+    height: fit-content;
+    width: 85%;
+    max-width: 60rem;
+    padding: 2rem;
+    background-color: t.$mainBlue;
+    border-radius: 1rem;
+    box-shadow: 0.4rem 0.5rem 0.4rem rgba(0, 0, 0, 0.28);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.formContent {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+
+  &Text {
+    color: t.$secondaryWhite;
+    h1 {
+      font-size: 3rem;
+    }
+    h3 {
+      margin-top: 0.6rem;
+      font-size: 1.6rem;
+      font-weight: 400;
+    }
+  }
+
+  form {
+    margin-top: 2.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    input {
+      width: 100%;
+      padding: 0.6rem;
+      height: 3.6rem;
+      border-radius: 0.4rem;
+      border: none;
+      font-size: 1.4rem;
+      background-color: t.$secondaryWhite;
+      &::placeholder {
+        color: t.$lighterWhite;
+      }
+      &:focus {
+        outline: solid t.$mainYellow 0.2rem;
+      }
+    }
+
+    textarea {
+      font-family: Inter;
+      border-radius: 0.4rem;
+      padding: 0.8rem;
+      width: 100%;
+      border: none;
+      min-height: 14rem;
+      font-size: 1.4rem;
+      background-color: t.$secondaryWhite;
+      resize: none;
+      &::placeholder {
+        color: t.$lighterWhite;
+      }
+      &:focus {
+        outline: solid t.$mainYellow 0.2rem;
+      }
+    }
+
+    button {
+      width: 100%;
+      height: 3rem;
+      font-size: 1.6rem;
+      border-radius: 0.6rem;
+      border: none;
+      color: t.$lighterWhite;
+    }
+  }
+}
+
+@media (min-width: 660px) {
+  .formContent {
+    padding: 0.8rem;
+    form {
+      textarea {
+        height: 18rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .formContent {
+    &Text {
+      h1 {
+        font-size: 3.8rem;
+      }
+      h3 {
+        font-size: 2rem;
+      }
+    }
+
+    form {
+      input {
+        font-size: 1.6rem;
+        height: 4.4rem;
+      }
+
+      textarea {
+        font-size: 1.6rem;
+        height: 22rem;
+      }
+
+      button {
+        height: 3.8rem;
+      }
+    }
+  }
+}
