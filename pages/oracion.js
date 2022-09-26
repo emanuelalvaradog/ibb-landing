@@ -4,20 +4,29 @@ import { useForm } from "../hooks/useForm";
 import styles from "../styles/Oracion.module.scss";
 
 const initialForm = {
-  nombre: "",
+  name: "",
   email: "",
-  peticion: "",
+  message: "",
 };
 
 export default function Oracion() {
-  const { nombre, email, peticion, formState, onInputChange, onResetForm } =
+  const { name, email, message, formState, onInputChange, onResetForm } =
     useForm(initialForm);
 
   function handlePost(e) {
     e.preventDefault();
+
     try {
-      console.log(formState);
-    } catch (error) {}
+      fetch("http://localhost:3000/api/email", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formState),
+      });
+    } catch (error) {
+      console.log(error);
+    }
 
     onResetForm();
   }
@@ -51,11 +60,11 @@ export default function Oracion() {
             </div>
             <form onSubmit={handlePost}>
               <input
-                name="nombre"
+                name="name"
                 type="text"
                 placeholder="¿Cuál es tu nombre?"
                 onChange={onInputChange}
-                value={nombre}
+                value={name}
                 required="required"
               />
               <input
@@ -67,10 +76,10 @@ export default function Oracion() {
                 required="required"
               />
               <textarea
-                name="peticion"
+                name="message"
                 placeholder="Escribe tu petición"
                 onChange={onInputChange}
-                value={peticion}
+                value={message}
                 required="required"
               ></textarea>
               <button type="submit">Enviar</button>
