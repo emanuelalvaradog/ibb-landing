@@ -11,7 +11,7 @@ IBB landing page is a landing page for a church in Mexico where most of its memb
 - NextJS
 - NodeJS
 - Express (external api)
-- CSS modules
+- SCSS modules
 - React
 ### Other tools:
 - Figma
