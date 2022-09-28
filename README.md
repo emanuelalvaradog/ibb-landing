@@ -1,34 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# IBB Landing
+IBB landing page is a landing page for a church in Mexico where most of its members are older adults who mainly use their phones so the need to make it really simple to use and interact was the main objective.
 
-## Getting Started
+## [Live Demo](https://www.bethel.org.mx/)
+![mobile homepage](https://lh3.googleusercontent.com/AwSqMqtsyao9sGmiyT39hrXeWiav6EJ-F7Trt1rE7RNJvp0cE0hT75hv-NnaCILE9UGGPGpQ8nv4x3edigHhUqTGCJaSAlsxAeyXPSfItM6uMNdbjUiBoXcISkAauOB0fUenN7Dus5f-KYPZfMbt9fcAenTKUBCL42QODnXGERVdxo9YYzhvONMdN-mQDp-bkn125s3wE8eqqUrZ8FsZhvj69-bgDSRcovl2ais2pFwcIqkXoPKwhb3kUrePBeSHFp4RupulWOa4u7S1Ru0S-6Rx69PmLXxq69bu6PlaEevz-w9UcREY-pWg7uvP23JuXDv8Id1zNXAdOfwofbeh8NYjRcMetZ-eheF0kwSIsDjrqbYppyjzEQ_xEWwpvaxuUr9cRWmPXUauik-SdET_pEHANwEr22GLxIVzdgmUnPBXVARbaWiABjFE7oziYpLWEWZ7WhV0TLyuzukBzAcCe_V5Mrw7cS7E7m8uzi5ErQn9f_Zb5I1_LIC9O37f910-R2W9E7plwtQwEoEJ21dR7S8Lnizgp7ESXdfj2xI927cMz_5gAsWk-Y6NE6Huug7PAY_cR5pf1ss6_xSoj9iiCWJN9m4Ku3VxE92TIzSnUuzpeVY-UjY-zbmB7ybqc6RHZGOr-lNOXf3cEnnyYcnkv460gjXCSKcEy_XX6krsuCVAKjpc_5-A7Y0xtMmyXlyReMxpAJHGAhGeGOwGzdZoGi1jWjWmBHM2ddbGd7EuZBq6_ObKZIzVviZO9PAO_7zx1qiy20HjlmrfKMQrx4dbf0rVpjjl7N9pzBcdn2JF85ZguCTeDwABDZYhjSQWCLceTlmavxLckLbiU5GpSG5HBvyVYkld337UJZv9dprZg_F5S2vv0HSItkbYQ13ubSEkGCkrpskiCIRaikAv3jZv1DrqzDNf_SXI385IDPM8boPqYtIuMXpPKZ2tV6Z8qeIoftW51-lxxN11OKjchFJF84mtk3zZFhyNexDtwcGvAqpfhfW5vkdwT8VohX0sFH0uWpe_L3Y9UODYDcO1PuZhAA=w322-h612-no?authuser=0)
+![mobile form page](https://lh3.googleusercontent.com/I0Y5JYhwqcTJ2YEcWdcsxMHRyP49Qkt_Hq2-yvjm3QbqQ_uN1uyFFaWEsEP5wl8ligJx3gVwDYdgpG2Cw-SL-MrrjjpQ9p_ahQUJahvW1r298T4dc1UGDQOyZKMlIUeyfUhlQiqr3IRbQyJFW0kMfcDKjnxoEwBe04RL8clepuLvCy3SLbREDz56d3MHEZjBLhGolTnUgO8dYDC18a4ZqS8ZyQgvMGw_pK52a-2am_oA591_2UL4WjvMHPS3Efn1syV-aOMoBDj64L4l_9qdxMQGzWD_FvOZjSE2KZ8jPpR8-ihMGhDNPM0sPBpctq5SKwC_pPmLQtg9I0c2czDqGNhNKUDv1m8TvYK440wGohBSK2bQzTwgAYgYrU7OqC9S4iN-J1QgzMLS2gc2KdF9oitmnVVhqqCiOsAEvcYJPNhq2_XJNoYkBDcf7ukQ5ESmLC0__ta5t8lH9JVX4QPjy2NzsNJkIUFOl8pvzGNo81kXlnE-ExCSU24Ra7wczolzktSQRM0Zksv5jU2ZwamtItq332FFlmCosdc2XmH9Ubuv9LpRv63jy2OgD2K9JMPB4Z_QBaYVhCNDshjz5Os8Z2QO44RP1q3_LKUMbhwWbjAHbNnoANs9ecA7qoDKD8ikpPiM9gwi0JdjkAC7bl1zxjwoVccPIwrPEtYGGEPsA9bKsxGccXUFjFxVU8-4K0I6sQlu2b3HVL3J_nHjcV3pnSOTK2uL_OQ40Zg0RbI21-HFTSv1TguF-jfrDC9sdlHHkxZ_Ag-X2UVWaKnlLsNR5mEyvxZmWvydZ5-_csL7GsaujnjIp5XDL8nVokSjibeDM0EnMaPW37s0bgMWWO9A9hCiLIsxSKKIiB11GRLAUQM=w322-h613-no?authuser=0)
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Features
+- Form creation
+- Translate natural language to an excel formula with AI
+- Understand existing formulas
+- Stripe integration to get different premium plans
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Process
+### Built with:
+- NextJS
+- NodeJS
+- Express (external api)
+- CSS modules
+- React
+### Other tools:
+- Figma
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Authors:
+Made with 💜 by [emanuelalvaradog](https://github.com/emanuelalvaradog)
