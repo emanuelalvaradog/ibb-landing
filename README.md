@@ -1,4 +1,4 @@
-# IBB Landing
+# [IBB Landing](https://www.bethel.org.mx/)
 IBB landing page is a landing page for a church in Mexico where most of its members are older adults who mainly use their phones so the need to make it really simple to use and interact was the main objective.
 
 ## [Live Demo](https://www.bethel.org.mx/)
